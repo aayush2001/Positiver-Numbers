@@ -1,0 +1,23 @@
+#this is the first list
+list1=[12,-7,5,64,-14]
+print("Before removal operation")
+print(list1)
+print("After removal operation")
+for numbers in list1:
+    if numbers>0:
+        print(numbers)
+
+
+
+#this is the second list
+list2=[12,14,-95,3]
+print("List2 before removal operation")
+print(list2)
+for numbers in list2:
+    if numbers<0:
+        list2.remove(numbers)
+print("List2 after removal operation")
+print(list2)
+    
+        
+        
